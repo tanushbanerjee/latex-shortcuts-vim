@@ -1,3 +1,5 @@
+map <F5> :!latexmk -pdf %<CR><CR>
+map <F4> :!zathura $(echo % \| sed 's/tex$/pdf/') & disown <CR><CR>
 map <F6> :setlocal spell! spelllang=en_us<CR>
 
 " Key bindings to make vim more like an IDE
