@@ -6,11 +6,6 @@ map <F6> :setlocal spell! spelllang=en_us<CR>
 
 inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 nnoremap <Space><Space> <Esc>/<++><Enter>"_c4l
-" Groff / Nroff Keybindings
-autocmd BufNewFile,BufRead *.ms inoremap ;n <Esc>ggi.TL<Enter><++><Enter><Enter>.AU<Enter><++><Enter><Enter>.NH 1<Enter><++><Enter><Enter><Esc>ggjcc
-autocmd BufNewFile,BufRead *.ms inoremap ;p .PP<Enter><Enter><++><Esc>ki
-autocmd BufNewFile,BufRead *.ms inoremap ;b <Enter>.B<Space>""<Enter><++><Esc>k0wwa
-autocmd BufNewFile,BufRead *.ms inoremap ;i <Enter>.I<Space>""<Enter><++><Esc>k0wwa
 
 " LaTeX Keybindings
 autocmd BufNewFile,BufRead *.tex inoremap ;n <Esc>:read ~/fl/templates/template.tex<CR>
