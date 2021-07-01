@@ -8,7 +8,6 @@ inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 nnoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 
 " LaTeX Keybindings
-autocmd BufNewFile,BufRead *.tex inoremap ;n <Esc>:read ~/fl/templates/template.tex<CR>
 autocmd BufNewFile,BufRead *.tex inoremap ;ch <Enter>\chapter{}<Enter><++><Esc>k0wwa
 autocmd BufNewFile,BufRead *.tex inoremap ;s <Enter>\section{}<Enter><++><Esc>k0wwa
 autocmd BufNewFile,BufRead *.tex inoremap ;ss <Enter>\subsection{}<Enter><++><Esc>k0wwa
